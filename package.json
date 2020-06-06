@@ -1,0 +1,16 @@
+{
+  "name": "audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playAudioFiles.js",
+  "scripts": {
+    "prepare": "node prepareAudioFiles.js",
+    "play": "node playAudioFiles.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
