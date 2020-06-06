@@ -7,7 +7,7 @@ const prepareProcess = (channel, channels, fileName) => {
         fileString += `-i raw/${channel === c ? fileName : 'silence.wav'} `;
     });
 
-    return `ffmpeg ${fileString}-filter_complex ${channelString} -map "[aout]" processed/${channel}/$${fileName}`
+    return `ffmpeg ${fileString}-filter_complex ${channelString} -map "[aout]" processed/${channel}/${fileName}`
 }
 
 module.exports = {
