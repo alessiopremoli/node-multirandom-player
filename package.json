@@ -2,9 +2,9 @@
   "name": "audio",
   "version": "1.0.0",
   "description": "",
-  "main": "playAudioFiles.js",
+  "main": "index.js",
   "scripts": {
-    "prepare": "node prepareAudioFiles.js",
+    "prep": "node prepareAudioFiles.js",
     "play": "node playAudioFiles.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
